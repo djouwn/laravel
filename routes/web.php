@@ -34,3 +34,4 @@ Route::get('/paiements', [PaiementController::class, 'index'])->name('paiements.
 
 
 Auth::routes();
+Route::get('/contact', 'App\Http\Controllers\PagesController@contact')-> name('contact');
